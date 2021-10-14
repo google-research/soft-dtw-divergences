@@ -8,7 +8,7 @@ Example
 
 ```python
 import numpy as np
-from sdtw_div.numba_ops import sdtw_div, sdtw_value_and_grad
+from sdtw_div.numba_ops import sdtw_div, sdtw_div_value_and_grad
 
 # Two 3-dimensional time series of lengths 5 and 4, respectively.
 X = np.random.randn(5, 3)
